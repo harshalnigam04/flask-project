@@ -1,0 +1,11 @@
+{
+    "project": "Flask Project",
+    "version": "1.0.0",
+    "author": "harshalnigam04",
+    "description": "A simple Flask web application",
+    "routes": [
+        { "path": "/",     "method": "GET", "description": "Home page" },
+        { "path": "/api",  "method": "GET", "description": "Returns project info as JSON" },
+        { "path": "/about","method": "GET", "description": "About page" }
+    ]
+}
